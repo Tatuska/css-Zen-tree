@@ -1,0 +1,143 @@
+h1 {
+	background-image: url(../images/ZenTree.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	
+	border: none;
+	height: 300px;
+	width: 80%;
+
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2em;
+	text-align: left;
+	
+	padding-left: 40px;
+	padding-top: 40px;
+	
+	transition-duration: 2s;
+	display: inline-block;
+}
+
+h1:hover {
+	transform: scale(0.8);
+	background-image: url(../images/ZenTree%20redgray%20hover.jpg);
+	transition-duration: 2s;
+	
+	font-family: monospace;
+	text-align: justify;
+	padding-top: 200px;
+}
+
+h2 {
+	font-family: sans-serif;
+	color: dimgray;
+	display: block;
+	margin-top: 0;
+	padding-right: 20px;
+	text-align: right;
+	
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.preamble,
+.explanation,
+.participation,
+.benefits,
+.requirements,
+footer {
+	border-top: 5px dashed grey;
+	border-bottom: 5px dashed grey;
+	border-left: 5px dashed #673e3e;
+	border-right: 5px dashed #673e3e;
+	box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+	padding: 10px 12px 10px 12px;
+	margin: 4%;
+	margin-top: 1px;
+	width: 35%;
+	float: left;
+}
+
+.preamble:hover,
+.explanation:hover,
+.participation:hover,
+.benefits:hover,
+.requirements:hover,
+footer:hover {
+	border-top: 5px dashed #673e3e;
+	border-bottom: 5px dashed #673e3e;
+	border-left: 5px dashed grey;
+	border-right: 5px dashed grey;
+	box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+}
+
+.requirements {
+	float: right;
+}
+
+footer {
+	border: none;
+}
+
+.summary {
+	font-size: 0.8em;
+	opacity: 0.6;
+	border: none;
+	font-family: sans-serif;
+	text-align: right;
+	margin: 0;
+	line-height: 30%;
+}
+
+
+.preamble > p,
+.explanation > p,
+.participation > p,
+.benefits > p,
+.requirements > p {
+	text-align: center;
+}
+
+.sidebar {
+	border: none;
+	width: 100%;
+	display: flex;
+	font-family: sans-serif;
+	background: linear-gradient(to bottom, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+	opacity: 0.8;
+}
+
+.design-selection {
+	float: left;
+	text-align: center;
+	margin: 10px;
+	line-height: 1.5;
+}
+
+.design-archives {
+	float: right;
+	text-align: center;
+	margin: 10px;
+	line-height: 1.5;
+}
+
+.zen-resources {
+	float: right;
+	text-align: center;
+	margin: 10px;
+	line-height: 1.5;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	font-family: sans-serif;
+	color: #673e3e;
+}
